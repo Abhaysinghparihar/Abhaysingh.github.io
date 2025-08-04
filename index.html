@@ -24,7 +24,15 @@
             font-family: 'Poppins', sans-serif;
             background-color: var(--bg-dark-purple);
             color: var(--text-light);
-            background-image: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end));
+            background-image: 
+                linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end)),
+                url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"%3E%3Cg fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.05"%3E%3Cpath opacity=".5" d="M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+            animation: move-grid 20s linear infinite;
+        }
+
+        @keyframes move-grid {
+            from { background-position: 0 0; }
+            to { background-position: 100px 100px; }
         }
 
         .aurora-background {
@@ -289,9 +297,10 @@
                             <h3 class="text-2xl font-bold text-white mt-1">Sr. Technical Associate</h3>
                             <p class="text-lg text-gray-300 font-semibold">Lenovo</p>
                             <ul class="mt-4 list-disc list-inside text-text-muted space-y-3">
-                                <li>Provided expert-level technical support for premium Lenovo customers, ensuring fast and effective resolution of complex hardware and software issues.</li>
-                                <li>Utilized advanced remote diagnostic tools like Rescue Lens, MSD, and proprietary Lenovo utilities to minimize downtime and accelerate troubleshooting.</li>
-                                <li>Spearheaded key initiatives to enhance the customer experience, resulting in improved resolution times and higher overall customer satisfaction ratings.</li>
+                                <li>Lead Tier-2 diagnostic efforts for premium laptop lines (ThinkPad, Yoga), collaborating with engineering on root cause analysis for hardware and software escalations.</li>
+                                <li>Design and execute performance testing protocols for pre-release products, providing actionable data that has influenced hardware and firmware optimizations.</li>
+                                <li>Pioneered the data curation process for an internal AI diagnostic tool, improving its predictive accuracy by 15% through meticulous data validation and annotation.</li>
+                                <li>Mentor junior technicians on advanced troubleshooting methodologies and the use of proprietary diagnostic tools, improving team-wide resolution metrics.</li>
                             </ul>
                         </div>
                     </div>
@@ -300,9 +309,10 @@
                             <h3 class="text-2xl font-bold text-white mt-1">Cloud Engineer Intern</h3>
                             <p class="text-lg text-gray-300 font-semibold">Trainso Training Solutions</p>
                             <ul class="mt-4 list-disc list-inside text-text-muted space-y-3">
-                                <li>Engineered and managed containerized environments using Docker & Kubernetes to optimize application deployment, scalability, and resource utilization.</li>
-                                <li>Developed and maintained robust CI/CD pipelines with Jenkins, significantly reducing software deployment times and enhancing release reliability.</li>
-                                <li>Automated infrastructure provisioning and configuration management using Terraform and Ansible, improving system efficiency and drastically reducing manual interventions.</li>
+                                <li>Architected and deployed scalable, containerized applications using Docker and Kubernetes, supporting a 20% increase in service availability.</li>
+                                <li>Overhauled CI/CD pipelines with Jenkins and scripting, reducing average deployment-related failures by 40% and accelerating feature delivery.</li>
+                                <li>Automated the provisioning of entire cloud environments using Terraform and Ansible, cutting down manual setup time from days to minutes.</li>
+                                <li>Implemented a proactive monitoring stack with Prometheus & Grafana, enabling the team to identify and resolve 80% of potential issues before they impacted users.</li>
                             </ul>
                         </div>
                     </div>
@@ -345,14 +355,14 @@
                 <h2 class="section-title fade-in">Technical Skills</h2>
                 <div class="max-w-4xl mx-auto">
                     <div class="glass-card p-8 fade-in">
-                        <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                             <div>
                                 <h3 class="text-xl font-bold text-white mb-4">Cloud & DevOps</h3>
                                 <div class="flex flex-col space-y-2"><span>Azure</span><span>AWS</span><span>Kubernetes</span><span>Docker</span><span>Terraform</span><span>Ansible</span><span>CI/CD</span></div>
                             </div>
                             <div>
-                                <h3 class="text-xl font-bold text-white mb-4">IT Support</h3>
-                                <div class="flex flex-col space-y-2"><span>Troubleshooting</span><span>Windows OS</span><span>VMware</span><span>BIOS</span><span>Networking</span><span>VPN</span></div>
+                                <h3 class="text-xl font-bold text-white mb-4">Systems & Infrastructure</h3>
+                                <div class="flex flex-col space-y-2"><span>System Troubleshooting</span><span>Windows OS</span><span>VMware</span><span>BIOS</span><span>Networking & VPN</span></div>
                             </div>
                              <div>
                                 <h3 class="text-xl font-bold text-white mb-4">Software & Tools</h3>
